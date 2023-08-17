@@ -1,0 +1,69 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(254, 249, 245);
+}
+
+body {
+  background-color: rgb(31, 43, 55);
+}
+
+#add-skill-btn {
+  background-color: rgb(22, 30, 39);
+  display: inline-block;
+  margin: 2rem 0 2rem 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn-text {
+  padding: 1rem 2rem;
+  display: block;
+}
+
+h1,
+table {
+  margin-left: 2rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+th {
+  border-bottom: 1px solid rgb(254, 249, 245);
+  font-weight: bold;
+  text-align: left;
+  width: 20rem;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(22, 30, 39);
+}
+
+tr {
+  border: none;
+  height: 2rem;
+  font-weight: lighter;
+}
+
+.id-data,
+.skill-data,
+.action-element {
+  width: 20rem;
+}
+
+td button {
+  background-color: transparent;
+  border: none;
+  color: rgb(9, 87, 255);
+}
+
+td button:hover,
+#add-skill-btn:hover {
+  cursor: pointer;
+  background-color: rgba(78, 78, 78, 0.233);
+}
